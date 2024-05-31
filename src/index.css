@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "cabinet-grotesk";
+  src: url(/CabinetGrotesk-Medium.ttf);
+}
+
+@layer base {
+  :root {
+    /*backgrounds*/
+    --primary: hsl(0, 0%, 100%);
+
+    /*border*/
+    --border-color: #33333329;
+
+    --info: "#2F80ED";
+    --success: "#27AE60";
+    --warning: "#E2B93B";
+    --error: "#b42121";
+  }
+  body {
+    font-family: "cabinet-grotesk", sans-serif;
+  }
+}
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+}

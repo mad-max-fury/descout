@@ -1,0 +1,5 @@
+/* TableComp.css */
+tr > td:last-child,
+tr > td:nth-last-child(2) {
+  border-bottom: none;
+}

@@ -1,0 +1,17 @@
+
+
+function Shape() {
+  return (
+    <svg
+      width="29"
+      height="29"
+      viewBox="0 0 29 29"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="14.5" cy="14.5" r="14.5" fill="#654EF2" />
+    </svg>
+  );
+}
+
+export default Shape;
